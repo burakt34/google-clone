@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    left: 30%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.searchAll .lucky .search {
+    width: 582px;
+    height: 44px;
+    position: relative;
+    border: .05px solid rgb(230, 227, 227);
+    border-radius: 40px;
+}
+
+.searchAll .search img {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    left: 93%;
+    padding-top: 7px;
+
+
+}
+
+.searchorjinal {
+    width: 403px;
+    height: 34px;
+    border: none;
+    outline: none;
+    
+
+}
+
+.button #gs {
+    background: rgb(238, 236, 236);
+    width: 122px;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+    margin: 12px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    
+}
+
+.button #ksh {
+    background: rgb(238, 236, 236);
+    width: 216px;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: normal;
+    word-spacing: normal;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+.button #gs:hover,
+.button #ksh:hover {
+    border: 1px solid gray;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.footer1 {
+    height: 48px;
+    width: 100%;
+    background: #dde1e7;
+    font: 15px, arial, sans-serif;
+    padding: 15px 30px;
+    box-sizing: border-box;
+}
+.footer1 p{
+    font: 15px, arial, sans-serif;
+   
+    color: #202124;
+    text-decoration: none;
+   
+}
+
+.footer2 {
+    height: 47px;
+    width: 100%;
+    background: #dde1e7;
+    font: 15px, arial, sans-serif;
+    border-top: 1px solid rgb(194, 192, 192);
+    box-sizing: border-box;
+}
+
+.footer2 ul li {
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+    margin: auto;
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+
+.carbon {
+    width: 203px;
+    height: 17px;
+    position: fixed;
+    left: 40%;
+}
+.carbon p{
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.footer2 ul li{
+    list-style: none;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+.footer2 ul li a:hover {
+    border-bottom: 1px solid rgb(163, 161, 161)
+}
